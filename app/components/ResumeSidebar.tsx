@@ -27,12 +27,12 @@ export default function ResumeSidebar() {
   const languages = ['English', 'Tagalog', 'Iloco'];
 
   return (
-    <aside className="bg-gray-50 p-8">
+    <aside className="bg-gray-50 p-4 md:p-8">
       <div className="space-y-8">
         
         {/* Technical Skills */}
         <section>
-          <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">
+          <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 border-b-2 border-black pb-2">
             TECHNICAL SKILLS
           </h2>
           <div className="space-y-3">

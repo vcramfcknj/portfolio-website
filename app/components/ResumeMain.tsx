@@ -5,7 +5,7 @@ import { SiPhp, SiMysql, SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, Si
 
 export default function ResumeMain() {
   return (
-    <main className="flex-1 p-8 space-y-12">
+    <main className="flex-1 p-4 md:p-8 space-y-8 md:space-y-12">
       
       {/* Professional Summary */}
       <section>
@@ -22,7 +22,7 @@ export default function ResumeMain() {
 
       {/* Professional Experience / Projects */}
       <section>
-        <h2 className="text-3xl font-bold mb-6 border-b-4 border-black pb-2">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6 border-b-2 md:border-b-4 border-black pb-2">
           PROFESSIONAL EXPERIENCE
         </h2>
         
